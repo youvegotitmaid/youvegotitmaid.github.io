@@ -220,7 +220,7 @@ color:#ff9cf3;
   }
 
   .logo a{
-    font-size: 40px;
+    font-size: 30px;
     padding: 8px;
   }
 
@@ -237,11 +237,11 @@ color:#ff9cf3;
 
   .landing h1{
     margin-top: 60px;
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .landing h2{
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 40px;
   }
 
@@ -260,7 +260,7 @@ color:#ff9cf3;
   }
 
   .about img{
-    height: 160px;
+    height: 150px;
   }
 
   .services{
@@ -315,5 +315,8 @@ color:#ff9cf3;
     margin-top: 25%;
     color: #ff9cf3;
   }
+  
+  .contact h2{
+    font-size: 17px;
 
 }
