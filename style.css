@@ -166,14 +166,8 @@ a{
 }
 
 .testimonials h3{
-  color: #696969;
+  color: #ff9cf3;
   font-size: 25px;
-}
-
-blockquote h3:before {
-content: open-quote;
-font-size:100px;
-color:#ff9cf3;
 }
 
 .contact{
@@ -221,6 +215,7 @@ color:#ff9cf3;
 
   .logo a{
     font-size: 40px;
+    padding: 5px;
   }
 
   .navbar{
