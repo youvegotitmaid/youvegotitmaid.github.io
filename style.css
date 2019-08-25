@@ -231,9 +231,11 @@ a{
   }
 
   .landing h1{
-    margin-top: 60px;
+    margin-top: 55px;
     font-size: 25px;
     color: white;
+    padding: 20px;
+    text-align: center;
   }
 
   .landing h2{
@@ -266,7 +268,7 @@ a{
   .services h1{
     font-size: 32px;
   }
-  
+
   .services h2{
     display: none;
   }
@@ -304,9 +306,9 @@ a{
   }
 
   .testimonials{
-    height: 150px;
+    height: 160px;
   }
-  
+
   .testimonials h3{
     font-size: 20px;
   }
@@ -320,9 +322,9 @@ a{
     color: #ff9cf3;
     font-size: 32px;
   }
-  
+
   .contact h2{
     font-size: 17px;
   }
-  
+
 }
