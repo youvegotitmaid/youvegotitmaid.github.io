@@ -269,6 +269,10 @@ color:#ff9cf3;
   .services h1{
     font-size: 32px;
   }
+  
+  .services h2{
+    display: none;
+  }
 
   .flip-card h1{
     font-size: 30px;
