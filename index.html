@@ -15,6 +15,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <!--Site Style-->
   <link href = "style.css" rel = "stylesheet">
@@ -163,11 +164,65 @@
 </div>
 
 <div class="container-fluid">
-  <div class="testimonials">
-    <div class="row align-items-center justify-content-center">
-      <h3> "You've Got It Maid and its owner Christie are the full package. My house has never looked so good!"⁠ <br> ⁠— Angela, Short Hills New Jersey </h3>
+<div class="col-lg-10 offset-lg-1 pt-5 pb-5 bg-white">
+  <div id="client-testimonial-carousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active text-center p-4">
+        <blockquote class="blockquote text-center" style="color:#696969;">
+          <p class="mb-2"><i class="fa fa-quote-left"></i> As a realtor, You’ve Got It Maid has been an asset to my business. Christie’s kindness and professionalism are greatly appreciated by my clients and myself. Every client has raved about her performance. I highly recommend this business for anyone looking to clean up their home for sale or on a weekly basis.
+          </p>
+          <footer class="blockquote-footer p-3"> Christina, <cite title="Source Title"> Mahwah </cite></footer>
+          <!-- Client review stars -->
+          <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+          <p class="client-review-stars" style="color:#ff9cf3;">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </p>
+        </blockquote>
+      </div>
+      <div class="carousel-item text-center p-3">
+        <blockquote class="blockquote text-center" style="color:#696969;">
+          <p class="mb-2"><i class="fa fa-quote-left"></i> Excellent service! I highly recommend. Great customer service - Christie knows how to make a room organized again! So happy we found her!!
+          </p>
+          <footer class="blockquote-footer p-3"> Chelsea, <cite title="Source Title"> Ridgewood </cite></footer>
+          <!-- Client review stars -->
+          <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+          <p class="client-review-stars" style="color:#ff9cf3;">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </p>
+        </blockquote>
+      </div>
+      <div class="carousel-item text-center p-4">
+        <blockquote class="blockquote text-center" style="color:#696969;">
+          <p class="mb-2"><i class="fa fa-quote-left"></i> Christie did an amazing job. Very detailed, and she organizes too! Great personality and easy to work with!
+          </p>
+          <footer class="blockquote-footer p-3"> Ben, <cite title="Source Title"> Highland Lakes </cite></footer>
+          <!-- Client review stars -->
+          <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+          <p class="client-review-stars" style="color:#ff9cf3;">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </p>
+        </blockquote>
+      </div>
     </div>
+    <ol class="carousel-indicators">
+      <li data-target="#client-testimonial-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#client-testimonial-carousel" data-slide-to="1"></li>
+      <li data-target="#client-testimonial-carousel" data-slide-to="2"></li>
+    </ol>
   </div>
+</div>
 </div>
 
 <div class="container-fluid">
