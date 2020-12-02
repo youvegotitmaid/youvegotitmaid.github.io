@@ -219,7 +219,6 @@ a:hover {
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 90px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -409,6 +408,7 @@ a:hover {
   .landing h1{
     margin-top: 45px;
     font-size: 25px;
+    font-weight: bold;
     color: white;
     padding: 10px;
     text-align: center;
@@ -416,6 +416,7 @@ a:hover {
 
   .landing h2{
     font-size: 20px;
+    font-weight: bold;
     margin-top: 15px;
   }
 
