@@ -14,6 +14,11 @@ a{
   color: inherit;
 }
 
+a:hover {
+    text-decoration:none;
+    color: inherit;
+  }
+
 .logo{
   text-align: center;
 }
@@ -42,7 +47,8 @@ a{
 .landing h1{
   font-family: 'Montserrat', sans-serif;
   color: white;
-  font-size: 40px;
+  font-size: 35px;
+  font-weight: bold;
   margin-top: 13%;
   text-align: center;
 }
@@ -50,6 +56,7 @@ a{
 .landing h2{
   color: white;
   font-size: 30px;
+  font-weight: bold;
   text-align: center;
   margin-top: 35px;
 }
@@ -87,7 +94,7 @@ a{
 .services h1{
   color: white;
   margin-top: 30px;
-  font-size: 40px;
+  font-size: 33px;
 }
 
 .services h2{
@@ -97,7 +104,7 @@ a{
 
 .services i{
   color: white;
-  font-size: 50px;
+  font-size: 40px;
   padding: 0px;
 }
 
@@ -180,29 +187,127 @@ a{
 }
 
 .contact h1{
-  font-size: 35px;
+  font-size: 30px;
   margin-top: 7%;
-  color: #ff9cf3;
+  font-weight: bold;
+  color: white;
 }
 
 .contact h2{
-  font-size: 25px;
-  color: #696969;
+  font-size: 20px;
+  color: white;
   margin-top: 30px;
   text-align: center;
 }
 
 .footer{
   height: 70px;
-  background-color: #ff9cf3;
+  background-color: white;
 }
 
 .footer h3{
-  font-size: 18px;
+  font-size: 15px;
   text-align: center;
-  color: white;
-  margin-top: 20px;
+  color: black;
+  margin-top: 27px;
 }
+
+.social{
+  margin-top: 30px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 90px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-google {
+  background: #DE3612;
+  color: white;
+}
+
+.fa-instagram {
+  background: #DE12D7;
+  color: white;
+}
+
+/* Gallery */
+
+.HomeCleaning{
+  background-image: url(images/Kitchen.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.HomeCleaning h1{
+  font-family: 'Leckerli One', cursive;
+  color: white;
+  font-size: 70px;
+  margin-top: 20%;
+  text-align: center;
+}
+
+.Organization{
+  background-image: url(images/Closet.jpg);
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Organization h1{
+  font-family: 'Leckerli One', cursive;
+  color: white;
+  font-size: 70px;
+  margin-top: 20%;
+  text-align: center;
+}
+
+.EventCleanup{
+  background-image: url(images/Event.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.EventCleanup h1{
+  font-family: 'Leckerli One', cursive;
+  color: white;
+  font-size: 70px;
+  margin-top: 20%;
+  text-align: center;
+}
+
+/* Grid */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  height: 500px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
 
 @media only screen and (max-width: 1024px){
 
@@ -232,6 +337,44 @@ a{
 
   .contact h1{
     margin-top: 100px;
+  }
+
+  /*Gallery*/
+
+  .HomeCleaning{
+    width: 100vw;
+    height: 600px;
+    background-size: cover;
+    background-position: center, center;
+  }
+
+  .HomeCleaning h1{
+    font-size: 60px;
+    margin-top: 200px;
+  }
+
+  .Organization{
+    width: 100vw;
+    height: 600px;
+    background-size: cover;
+    background-position: center, center;
+  }
+
+  .Organization h1{
+    font-size: 60px;
+    margin-top: 200px;
+  }
+
+  .EventCleanup{
+    width: 100vw;
+    height: 600px;
+    background-size: cover;
+    background-position: center, center;
+  }
+
+  .EventCleanup h1{
+    font-size: 60px;
+    margin-top: 200px;
   }
 
 }
@@ -264,16 +407,16 @@ a{
   }
 
   .landing h1{
-    margin-top: 55px;
+    margin-top: 45px;
     font-size: 25px;
     color: white;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
   }
 
   .landing h2{
     font-size: 20px;
-    margin-top: 40px;
+    margin-top: 15px;
   }
 
   .landing img{
@@ -334,17 +477,9 @@ a{
     padding: 5px;
   }
 
-  .testimonials{
-    height: 200px;
-  }
-
-  .testimonials h3{
-    font-size: 20px;
-  }
-
   .contact h1{
     margin-top: 30%;
-    color: #ff9cf3;
+    color: white;
     font-size: 32px;
   }
 
@@ -353,4 +488,62 @@ a{
     padding: 10px;
   }
 
+}
+
+/*Gallery Tablet*/
+
+@media only screen and (max-width: 430px){
+
+  .HomeCleaning{
+    width: 100vw;
+    height: 600px;
+    background-size: cover;
+    background-position: center, center;
+  }
+
+  .HomeCleaning h1{
+    font-size: 40px;
+    margin-top: 60%
+  }
+
+  .Organization{
+    width: 100vw;
+    height: 600px;
+    background-size: cover;
+    background-position: center, center;
+  }
+
+  .Organization h1{
+    font-size: 40px;
+    margin-top: 60%
+  }
+
+  .EventCleanup{
+    width: 100vw;
+    height: 600px;
+    background-size: cover;
+    background-position: center, center;
+  }
+
+  .EventCleanup h1{
+    font-size: 40px;
+    margin-top: 60%
+  }
+
+}
+
+/*Grid*/
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
